@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo Cleaning dotfiles...
-rm -rf ~/.bash_profile ~/.profile ~/.gitconfig ~/.tmux.conf
+rm -rf ~/.bash_profile ~/.bash_aliases  ~/.bashrc ~/.profile ~/.gitconfig ~/.tmux.conf
 
 echo Symlinking...
 ln -s "$PWD/tmux/tmux.conf" ~/.tmux.conf
