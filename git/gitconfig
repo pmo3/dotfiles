@@ -1,0 +1,10 @@
+#editor = code -n -w
+[core]
+editor = "atom --wait"
+[push]
+default = current
+[user]
+name = Patrick O'Brien
+email = patrick@patrickmobrien.com
+[web]
+browser = google-chrome
