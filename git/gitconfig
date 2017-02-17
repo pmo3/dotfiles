@@ -1,6 +1,3 @@
-#editor = code -n -w
-[core]
-editor = "atom --wait"
 [push]
 default = current
 [user]
